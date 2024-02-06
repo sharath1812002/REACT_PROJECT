@@ -12,3 +12,12 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+main{
+  min-height: 80vh;
+}
+
+footer{
+  background-color:bisque;
+  padding: 3px;
+}
+

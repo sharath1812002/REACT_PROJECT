@@ -8,7 +8,7 @@ const Header = ()=>{
       <Container>
       <Navbar.Brand href="#home">
        <Image  className='logo-ing-style' src="images/logo.jpg" alt="VTU" roundedCircle/>
-       <h6 className='logo-text-style'>Visweshvaraya Technological University,Bealagavi</h6>
+       <h6 className='logo-text-style'>Visvesvaraya Technological University,Bealagavi</h6>
        </Navbar.Brand>
 
        <Nav className="lr-auto">

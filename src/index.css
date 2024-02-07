@@ -1,12 +1,12 @@
 .navbar-style{
-  background-color: bisque;
+  background-color:rgb(235, 204, 166);
 }
 .logo-ing-style{
   height: 50px;
   width: 50px;
 }
 .logo-text-style{
-  margin: -21px 0px 0px 45px;
+  margin: -21px 0px 0px 50px;
 }
 *{
   font-family: 'Times New Roman', Times, serif;
@@ -17,8 +17,9 @@ main{
 }
 
 footer{
-  background-color:bisque;
+  background-color:rgb(235, 204, 166);
   padding: 3px;
+  margin-top: 0.5rem;
 }
 
 marquee{
@@ -26,3 +27,6 @@ marquee{
   font-size: 1rem;
 }
 
+.p-style{
+  text-align: justify;
+}

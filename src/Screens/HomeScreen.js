@@ -1,15 +1,15 @@
 import Recat from  'react'
 import{Container,Row,Col,Carousel,Button} from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 const HomeScreen= ()=>{
     return(
         <>
         <div>
             <marquee>
-                VTU Results 2024 out - Check Exam results here!!!<a href='#'>   Click here...</a>
+                VTU Results 2024 out - Check Exam results here!!!<Link to='/result'>   Click here...</Link>
                 Best of Luck
             </marquee>
-        </div>
+        </div> 
 
         <div>
         <Carousel>
@@ -63,7 +63,7 @@ const HomeScreen= ()=>{
   <Row>
   
   <Col>
-    <h3><a href="#"> Vision</a></h3>
+    <h3><Link to="/about"> Vision</Link></h3>
     <p className='p-style'>
     To become an outstanding Technological University at the cutting edge of Science and 
     Technology that produces world class Knowledge-delivery,
@@ -74,12 +74,12 @@ const HomeScreen= ()=>{
     Technology that produces world class Knowledge-delivery,
      Research, Extension and Leadership in Technology innovation for Industry and Society.
     </p>
-    <Button variant='warning'>Read more</Button>
+    <Link to='/about' className='btn btn-warning'>Read more</Link>
 
   </Col>
 
   <Col >
-    <h3><a href="#"> Mission</a></h3>
+    <h3><Link to='/about'> Mission</Link></h3>
     <p className='p-style'>
     To become an outstanding Technological University at the cutting edge of Science and 
     Technology that produces world class Knowledge-delivery,
@@ -90,14 +90,15 @@ const HomeScreen= ()=>{
     Technology that produces world class Knowledge-delivery,
      Research, Extension and Leadership in Technology innovation for Industry and Society.
     </p>
-    <Button variant='warning'>Read more</Button>
+    <Link to='/about' className='btn btn-warning'>Read more</Link>
 
   </Col>
 
 
   <Col>
-    <h3><a href="#"> Mandate</a></h3>
+  <h3><Link to='/about'> Mandate</Link></h3>
     <p className='p-style'>
+
     To become an outstanding Technological University at the cutting edge of Science and 
     Technology that produces world class Knowledge-delivery,
      Research, Extension and Leadership in Technology innovation for Industry and Society.
@@ -107,7 +108,7 @@ const HomeScreen= ()=>{
     Technology that produces world class Knowledge-delivery,
      Research, Extension and Leadership in Technology innovation for Industry and Society.
     </p>
-    <Button variant='warning'>Read more</Button>
+    <Link to='/about' className='btn btn-warning'>Read more</Link>
 
   </Col>
   </Row>

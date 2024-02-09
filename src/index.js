@@ -8,6 +8,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HomeScreen from './Screens/HomeScreen';
 import AboutUs from './Screens/AboutUs';
+import ReasultLoginPage from './Screens/ResultLoginPage';
+
 
 const router=createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +17,7 @@ const router=createBrowserRouter(
       <Route index={HomeScreen} path='/' element ={<HomeScreen/>}/>
 
       <Route path='/About' element={<AboutUs/>}/>
+      <Route path='/result' element={<ReasultLoginPage/>}/>
 
     </Route>
   )

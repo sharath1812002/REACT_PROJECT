@@ -1,8 +1,13 @@
 import React from "react"; 
 
+
 const  AbouteUs =()=>{
     return(
-      <p>AbouteUs page</p>  
+     <>
+     <p> aboute us  page
+
+     </p>
+      </> 
     )
 }
 export default AbouteUs

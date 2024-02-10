@@ -15,7 +15,7 @@ const Header = ()=>{
         </LinkContainer>
       
 
-       <Nav className="lr-auto">
+       <Nav className=" md-auto">
         <LinkContainer to='/'>
         <Nav.Link href="#home">Home</Nav.Link>
         </LinkContainer>
@@ -51,7 +51,7 @@ const Header = ()=>{
         <LinkContainer to='/exam_application'>
         <NavDropdown.Item href="#">Examinatipon Application</NavDropdown.Item>
         </LinkContainer>
-        <LinkContainer to='/result'>
+        <LinkContainer to='/result/loginpage'>
         <NavDropdown.Item href="#">Result</NavDropdown.Item>
         </LinkContainer>
         

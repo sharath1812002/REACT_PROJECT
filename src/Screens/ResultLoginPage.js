@@ -1,30 +1,28 @@
  import React  from 'react';
  import{Link} from 'react-router-dom';
- import{Row,Col,Form,Button } from "react-bootstrap";
+ import{Row,Col,Form,Button, FormControl } from "react-bootstrap";
 
    const ReasultLoginPage=()=>
    {
     return(
         <> 
-     <Link  to="/" className='btn btn-dark' style={{marginTop:"1rem"}}>  Go Back</Link>
+     <Link  to="/" className='btn btn-dark' style={{marginTop:"1rem"}}> Go Back</Link>
      <Row className='text-center'>
         <Col >
         <h3>Check your results here...</h3>
-      
-        </Col>
-      
-     </Row>
+       </Col>
+      </Row>
      <br/>
      <Row>
-        <Col >
-     <Col style={{marginLeft:"23rem"}} >
+        <Col></Col>
+        <Col style={{marginLeft:"-26rem"}} >
          <Form>
-            <label> Enter your Register No:</label><br></br>
-            <input type='text' placeholder='Enetr your Register n6o ' style={{width:"50%"}}></input>
-            <br/>
-          <Button  type=" submit"style={{marginTop:'1rem'}}>Submit</Button>
+            <Form.Label> Enter your Register No:</Form.Label><br></br>
+            <FormControl type='text' placeholder='Enetr your Register no ' style={{width:"70%"}}></FormControl>
+            
+          <Button  type=" submit "style={{marginTop:'1rem'}}>Submit</Button>
         </Form>
-        </Col>
+        
         </Col>
      </Row>
         </>

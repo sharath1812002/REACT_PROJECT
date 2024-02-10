@@ -9,16 +9,15 @@ import reportWebVitals from './reportWebVitals';
 import HomeScreen from './Screens/HomeScreen';
 import AboutUs from './Screens/AboutUs';
 import ReasultLoginPage from './Screens/ResultLoginPage';
-
+import ResultPage from './Screens/ResultPage';
 
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
       <Route index={HomeScreen} path='/' element ={<HomeScreen/>}/>
-
       <Route path='/About' element={<AboutUs/>}/>
-      <Route path='/result' element={<ReasultLoginPage/>}/>
-
+      <Route path='/result/loginpage' element={<ReasultLoginPage/>}/>
+       <Route path='/resultpage' element={<ResultPage/>}/>
     </Route>
   )
 )

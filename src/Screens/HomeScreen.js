@@ -6,7 +6,7 @@ const HomeScreen= ()=>{
         <>
         <div>
             <marquee>
-                VTU Results 2024 out - Check Exam results here!!!<Link to='/result'>   Click here...</Link>
+                VTU Results 2024 out - Check Exam results here!!!<Link to='/result/loginpage'>   Click here...</Link>
                 Best of Luck
             </marquee>
         </div> 
